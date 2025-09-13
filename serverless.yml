@@ -1,0 +1,29 @@
+service: modern-dropship-mapping
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs22.x
+  stage: ${self:custom.stage}
+  region: ${self:custom.region}
+  environment:
+    ELASTICPATH_HOST: ${ssm:/modern-dropship/${self:custom.stage}/elasticpath/host}
+    ELASTICPATH_CLIENT_ID: ${ssm:/modern-dropship/${self:custom.stage}/elasticpath/client_id}
+    ELASTICPATH_CLIENT_SECRET: ${ssm:/modern-dropship/${self:custom.stage}/elasticpath/client_secret}
+
+custom:
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'us-east-1'}
+  serverless-offline:
+    httpPort: 3005
+    lambdaPort: 3006
+
+functions:
+  mapping:
+    handler: src/functions/mapping.handler
+    events:
+      - http:
+          path: /api/mapping
+          method: post

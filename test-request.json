@@ -1,0 +1,168 @@
+{
+  "data": [
+    {
+      "attributes": {},
+      "brand": "Modern Dropship Apparel",
+      "companyId": "688398a3bd881f7d602ca525",
+      "created": "2025-07-30T22:35:28.22Z",
+      "description": "Black cotton top with matching striped skirt.",
+      "descriptionTranslations": {
+        "en": "Black cotton top with matching striped skirt."
+      },
+      "googleProductCategory": {
+        "code": 0,
+        "name": ""
+      },
+      "id": "688a9e30bd881f7d608a020b",
+      "images": [
+        {
+          "id": "688a9e30bd881f7d608a0210",
+          "position": 1,
+          "source": "https://cdn.shopify.com/s/files/1/0018/5617/6150/products/woman-in-the-city_925x_34c54a7d-e2a0-48fe-a169-fde33a735aef.jpg",
+          "variantIds": [
+            "688a9e30bd881f7d608a020e",
+            "688a9e30bd881f7d608a020f",
+            "688a9e30bd881f7d608a020c",
+            "688a9e30bd881f7d608a020d"
+          ]
+        }
+      ],
+      "metafields": {},
+      "optionNames": [
+        "Size"
+      ],
+      "sellerReference": "striped-skirt-and-top-new",
+      "seoTitle": "",
+      "tags": [
+        "women"
+      ],
+      "title": "Striped Skirt and Top New",
+      "titleTranslations": {
+        "en": "Striped Skirt and Top New"
+      },
+      "updated": "2025-07-30T22:36:25.618Z",
+      "variants": [
+        {
+          "attributes": {},
+          "barcode": "",
+          "barcodeType": "",
+          "baseCurrency": "GBP",
+          "basePrice": 52.3,
+          "compareAtPrice": "",
+          "dimensions": {
+            "height": 0,
+            "length": 0,
+            "units": "",
+            "width": 0
+          },
+          "id": "688a9e30bd881f7d608a020c",
+          "inventoryAmount": 2,
+          "metafields": {},
+          "options": [
+            {
+              "name": "Size",
+              "value": "extra-small"
+            }
+          ],
+          "retailCurrency": "GBP",
+          "retailPrice": 78,
+          "skipCount": false,
+          "sku": "striped-skirt-and-top-new-extra-small",
+          "title": "Striped Skirt And Top New - Extra Small",
+          "weight": 471,
+          "weightUnits": "g"
+        },
+        {
+          "attributes": {},
+          "barcode": "",
+          "barcodeType": "",
+          "baseCurrency": "GBP",
+          "basePrice": 34.2,
+          "compareAtPrice": "",
+          "dimensions": {
+            "height": 0,
+            "length": 0,
+            "units": "",
+            "width": 0
+          },
+          "id": "688a9e30bd881f7d608a020d",
+          "inventoryAmount": 0,
+          "metafields": {},
+          "options": [
+            {
+              "name": "Size",
+              "value": "small"
+            }
+          ],
+          "retailCurrency": "GBP",
+          "retailPrice": 38,
+          "skipCount": false,
+          "sku": "striped-skirt-and-top-new-small",
+          "title": "Striped Skirt And Top New - Small",
+          "weight": 480,
+          "weightUnits": "g"
+        },
+        {
+          "attributes": {},
+          "barcode": "",
+          "barcodeType": "",
+          "baseCurrency": "GBP",
+          "basePrice": 48.6,
+          "compareAtPrice": "",
+          "dimensions": {
+            "height": 0,
+            "length": 0,
+            "units": "",
+            "width": 0
+          },
+          "id": "688a9e30bd881f7d608a020e",
+          "inventoryAmount": 1,
+          "metafields": {},
+          "options": [
+            {
+              "name": "Size",
+              "value": "medium"
+            }
+          ],
+          "retailCurrency": "GBP",
+          "retailPrice": 54,
+          "skipCount": false,
+          "sku": "striped-skirt-and-top-new-medium",
+          "title": "Striped Skirt And Top New - Medium",
+          "weight": 389,
+          "weightUnits": "g"
+        },
+        {
+          "attributes": {},
+          "barcode": "",
+          "barcodeType": "",
+          "baseCurrency": "GBP",
+          "basePrice": 45,
+          "compareAtPrice": "",
+          "dimensions": {
+            "height": 0,
+            "length": 0,
+            "units": "",
+            "width": 0
+          },
+          "id": "688a9e30bd881f7d608a020f",
+          "inventoryAmount": 11,
+          "metafields": {},
+          "options": [
+            {
+              "name": "Size",
+              "value": "large"
+            }
+          ],
+          "retailCurrency": "GBP",
+          "retailPrice": 50,
+          "skipCount": false,
+          "sku": "striped-skirt-and-top-new-large",
+          "title": "Striped Skirt And Top New - Large",
+          "weight": 376,
+          "weightUnits": "g"
+        }
+      ]
+    }
+  ]
+}
