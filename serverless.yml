@@ -3,6 +3,14 @@ service: modern-dropship-mapping
 plugins:
   - serverless-offline
 
+build:
+  esbuild:
+    bundle: true
+    minify: false
+    sourcemap: true
+    exclude:
+      - aws-sdk
+
 provider:
   name: aws
   runtime: nodejs22.x

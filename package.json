@@ -4,9 +4,9 @@
   "main": "src/functions/mapping.js",
   "scripts": {
     "test": "jest",
-    "remove": "sls remove",
-    "deploy": "sls deploy",
-    "deploy:prod": "sls deploy --stage production"
+    "remove": "npx serverless remove",
+    "deploy": "npx serverless deploy",
+    "deploy:prod": "npx serverless deploy --stage production"
   },
   "license": "MIT",
   "dependencies": {
